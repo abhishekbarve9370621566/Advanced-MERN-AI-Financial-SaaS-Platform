@@ -1,80 +1,105 @@
-# 🌟 Advanced MERN AI Finance SaaS Platform - Finora
+# ?? MyFinance - Personal AI Financial Management Platform
 
-> This code, whether in parts or whole, is licensed for commercial use **only with a license**. It is **free for personal use**.
-> 👉 [Click here to obtain license](https://techwithemma.gumroad.com/l/huytmd) and 👉 [here to learn more](https://github.com/TechWithEmmaYT/Advanced-MERN-AI-Financial-SaaS-Platform/blob/main/TECHWITHEMMA-LICENSE.md)
-
-## ❤️ Support the Channel
-
-Love this project? Here’s how you can support:
-
-* ☕ [Buy Me a Coffee](https://buymeacoffee.com/techwithemmaofficial)
-* 🌟 Star this repo
-* 🎥 [Subscribe on YouTube](https://tinyurl.com/subcribe-to-techwithEmma)
+An advanced full-stack financial management application built with the MERN stack (MongoDB, Express, React, Node.js) and powered by Google Gemini AI for intelligent financial insights.
 
 ---
 
-## 🗝️ Key Features: 👇
+## ?? License & Attribution
 
-* 🔐 Authentication (Email + Password with JWT)
-* 🏢 Create & Edit Transactions
-* 📤 Upload & Scan Receipt with AI
-* 📈 Beautiful Advanced Analytics  (MongoDB Aggregate Pipeline)
-* 📊 Expenses Breakdown Pie Chart
-* 📈 Income & Expense Line Chart
-* 📅 Filter by Date Ranges — like Last 30 Days etc.
-* ♻️ Recurring Transactions with Cron Job
-* 📄 Auto-Generated Monthly Report (Emailed to User)
-* 📥 CSV transaction Import
-* 🔍 Filter & Search
-* 📅 Pagination
-* 🗑️ Bulk Delete
-* ➕ Duplicate Transactions
-* 🧑‍💼 Upload Profile Photo (Cloudinary)
-* 🌐 Built with MERN Stack (Node.js, MongoDB, React, TypeScript)
+This project is based on the [Advanced MERN AI Financial SaaS Platform](https://github.com/TechWithEmmaYT/Advanced-MERN-AI-Financial-SaaS-Platform) by [TechWithEmmaYT](https://github.com/TechWithEmmaYT).
 
-- 💳 [Premium] Upgrades via Stripe — Free Trial, Monthly & Yearly Plans, Easy Plan Switching 👉 [Get It Here](https://techwithemma.gumroad.com/l/gasvc)
-
-
-
-## 🔧 How to Use This Project
-
-### 📺 Step 1: Watch the Complete Full Course on YouTube
-
-> Learn how it all works, including the folder structure, integration, AI config, and more.
-> 👉 [Watch the Course](https://www.youtube.com/watch?v=2S7Y2wewF6I)
-
-
-
-### 💻 Step 2: Run It Locally, Setup Video, Live Preview
-
-> Want to run this project on your own machine? We've got you covered:
-👉 [Setup & Live Preview Link](https://techwithemma.gumroad.com/l/nphhyz)
-
-
-
-### 🚀 [Step 3]: Get the Extended Version — Stripe Payment Video (Free Trial), Full Source Code, Deployment & More.
-
-This is the missing piece — the Stripe payment that powers your SaaS.
-👉 [Get the Extended Version](https://techwithemma.gumroad.com/l/gasvc)
-
-* Free Trial + Monthly & Yearly Plan
-* Switch between Monthly ↔️ Yearly Plan
-* Full Stripe Integration & Webhooks
-* Setup Video (Run locally)
-* Complete Full Source Code
-* Plus Support
----
-
-## 📜 License Information
-
-A paid license is required for commercial use. To obtain a commercial license, please visit 👉 [Here](https://techwithemma.gumroad.com/l/huytmd)
-
-For more details about license, please refer to the [TECHWITHEMMA-LICENSE.md](https://github.com/TechWithEmmaYT/Advanced-MERN-AI-Financial-SaaS-Platform/blob/main/TECHWITHEMMA-LICENSE.md).
+**Original License:** This code is licensed for commercial use only with a license, and is free for personal use. See [TECHWITHEMMA-LICENSE.md](./TECHWITHEMMA-LICENSE.md) for full details.
 
 ---
 
-# 📺 Subscribe for More Projects
+## ? Key Features
 
-If you find this helpful, support by subscribing and sharing:
+* **?? Secure Authentication** - Email + Password with JWT tokens
+* **?? Transaction Management** - Create, edit, and organize financial transactions
+* **?? Receipt Scanning** - AI-powered receipt upload and parsing via Google Gemini
+* **?? Advanced Analytics** - Beautiful charts and insights using MongoDB aggregation pipelines
+* **?? Recurring Transactions** - Automated recurring transaction handling with cron jobs
+* **?? Intelligent Reports** - Auto-generated monthly financial reports with AI-powered insights
+* **?? Bulk Import** - CSV transaction import for easy data migration
+* **?? Search & Filter** - Advanced filtering, search, and pagination
+* **?? Bulk Operations** - Delete, duplicate, and manage multiple transactions
+* **??? Profile Management** - Upload and store profile photos via Cloudinary
+* **?? Responsive Design** - Full-stack TypeScript with modern React 18 & Tailwind CSS
 
-🔗 [https://tinyurl.com/subcribe-to-techwithEmma](https://tinyurl.com/subcribe-to-techwithEmma)
+---
+
+## ??? Tech Stack
+
+### Backend
+- **Runtime:** Node.js with Express 5.x
+- **Database:** MongoDB with Mongoose
+- **Authentication:** JWT with Passport.js
+- **Language:** TypeScript
+- **AI:** Google Gemini API
+
+### Frontend
+- **Framework:** React 18 with Vite
+- **Styling:** Tailwind CSS v4
+- **State Management:** Redux Toolkit
+- **Charts:** Recharts for data visualization
+
+---
+
+## ?? Prerequisites
+
+- Node.js v24+
+- npm v11+
+- MongoDB (local or Atlas)
+- Google Gemini API Key
+- Cloudinary Account
+- Resend API Key
+
+---
+
+## ?? Quick Start
+
+### 1. Install Dependencies
+
+```bash
+cd backend && npm install
+cd ../client && npm install
+```
+
+### 2. Configure Environment Variables
+
+Create `.env` files in both `backend/` and `client/` directories with your API keys and database connection details.
+
+### 3. Start MongoDB & Development Servers
+
+```bash
+# Terminal 1: Backend
+cd backend && npm run dev
+
+# Terminal 2: Frontend
+cd client && npm run dev
+```
+
+---
+
+## ?? Build for Production
+
+```bash
+cd backend && npm run build && npm start
+cd ../client && npm run build && npm run preview
+```
+
+---
+
+## ?? License
+
+Original work licensed under [TECHWITHEMMA-LICENSE.md](./TECHWITHEMMA-LICENSE.md). This is a customized portfolio version.
+
+---
+
+## ?? Acknowledgments
+
+Built upon the foundation provided by [TechWithEmmaYT](https://github.com/TechWithEmmaYT).
+
+---
+
+**Happy coding!** ??
